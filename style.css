@@ -64,6 +64,14 @@ p{
     font-size: 32px;
     font-weight: 600;
 }
+i{
+    border: solid white 1px ;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 250px;
+    height: auto;
+    
+}
 .logo{
     height:auto;
     width: 16%;
@@ -71,6 +79,7 @@ p{
 .mockups{
     width:49vw;
     margin-top: 27px;
+    position: fixed;
 }
 .attribution { 
     font-size: 11px; 
