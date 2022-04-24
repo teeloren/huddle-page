@@ -1,0 +1,61 @@
+
+
+/* ### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 600
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400 */
+
+
+:root{
+    background-color: black;
+    --Violet-color: hsl(257, 40%, 49%);
+    --Soft-Magenta-color: hsl(300, 69%, 71%);
+    
+}
+body{
+    overflow: hidden;
+    max-width: 1440px;
+
+}
+.bg-image {
+    background: linear-gradient(to top, #3204fdba, #240539cc),url("./images/bg-desktop.svg") no-repeat fixed;
+    /* background-color: blue;  */
+    
+   
+    width: 100vw;
+    height: 100vh;
+    
+    }
+h1{
+    font-family: 'Poppins', sans-serif; 
+  
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.5px;
+
+}
+.head{
+    font-size: 30px;
+    font-weight: 500;
+}
+.logo{
+    height:auto;
+    width: 16%;
+}
+.mockups{
+    width:49vw;
+    margin-top: 27px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center ;
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%) 
+}
